@@ -21,4 +21,8 @@ public class Hero {
     System.out.println("GAMEOVER");
     System.out.println("最終HPは" + this.hp + "でした");
   }
+  public void attack() {
+    System.out.println(this.name + "は" + this.sword.name + "で攻撃した！");
+    System.out.println("敵に" + this.sword.damage + "ポイントのダメージをあたえた！");
+  }
 }
